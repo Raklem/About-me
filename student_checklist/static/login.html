@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Student Checklist - Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="WISE Logo" class="logo">
+            </div>
+            <h1>Student Checklist</h1>
+            <p class="subtitle">Track your academic progress</p>
+            
+            <form id="login-form" class="login-form">
+                <div class="form-group">
+                    <label for="username">Login</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="username" name="username" placeholder="Enter your login" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                </div>
+                
+                <div class="form-group remember-me">
+                    <label>
+                        <input type="checkbox" id="remember-me" name="remember-me">
+                        <span>Remember me</span>
+                    </label>
+                </div>
+                
+                <button type="submit" class="login-button">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Login</span>
+                </button>
+            </form>
+            
+            <div class="login-footer">
+                <p class="subtitle">*Only for @miu.edu.mn domain users. </p>
+                <p>&copy; 2025 Student Checklist App</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

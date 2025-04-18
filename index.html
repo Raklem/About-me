@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About me</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="card">
+    <img src="Myphoto.jpg" alt="My photo" class="avatar" />
+    <h1>Hello, my name is Lily</h1>
+    <p>I am 22 years old, my birthday is May 1. I come from Russia, my city where I was born and grew up is Yakutsk. 
+        I came to Mongolia to study at MIU University. At first I wanted to enroll in Business Department, 
+        but later I decided that I wanted to study in Computer Science, because this direction interested me more.</p>
+    <p>In 2020 I enrolled in English language courses LEI. I studied for 1 academic year, 
+        and at the end of the courses I received a 100% scholarship on university tuition, as the best student in the institute.</p>
+    <p>I am interested in development, Bible study and love to create useful projects. 
+        I'm currently working on an app for students to help them choose classes throughout their 4 years of college, 
+        to accumulate the right number of credits to graduate.</p>
+
+
+      <h2>My Interests</h2>
+    <div class="interests">
+      <ul>
+        <li>📚 Bible study</li>
+        <li>💻 Web & App development</li>
+        <li>🎨 Design & creativity</li>
+        <li>☕ Good coffee & deep talks</li>
+      </ul>
+    </div>
+
+    <h3>Contact me</h3>
+    <div class="socials">
+      <a href="https://t.me/Raklem" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a>
+      <a href="https://www.instagram.com/vsgsgsis?igsh=a3kybHF6cWlqdTJx" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://www.facebook.com/share/16V8WWLSF5/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+
+    </div>
+
+    <h4>My project</h4>
+    <div class="project">
+      <a class="project-button" href="static/login.html">
+        Student Checklist
+      </a>
+    </div>
+
+    <button class="theme-toggle" onclick="toggleTheme()">🌗 Toggle Theme</button>
+  </div>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+</body>
+</html>
